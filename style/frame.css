@@ -1,0 +1,27 @@
+/* 全框体通用样式重置 */
+/* * 为所有框体通用设置 */
+* {
+    margin: 0; /* 设置外边距为0 */
+    padding: 0; /* 设置内边距为0 */
+}
+/* 导航栏下方的主要空间样式 */
+.container {
+    width: 80%; /* 设置容器宽度为80% */
+    margin: 0 auto; /* 设置容器居中 */
+}
+
+/* 当屏幕宽度小于或等于768px时，应用以下样式 */
+@media (max-width: 768px) {
+    .nav ul:last-child {
+        display: none; /* 隐藏导航栏最后一个ul元素 */
+    }
+
+    .container-flex ul:first-child {
+        flex-grow: 1; /* 伸展剩余空间 */
+        text-align: center; /* 文本居中 */
+    }
+    
+    .bq {
+        width: 100%; /* 设置宽度为100% */
+    }
+}

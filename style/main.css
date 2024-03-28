@@ -1,0 +1,33 @@
+/* 主内容样式 */
+main {
+    margin-top: 120px; /* 设置主内容距离上方距离为120px */
+}
+
+/* 个人简介样式 */
+.intro {
+    max-width: 500px; /* 设置个人简介最大宽度为500px */
+    margin: 0 auto; /* 设置个人简介居中 */
+}
+
+/* 头像样式 */
+.avatar {
+    float: left; /* 设置头像左浮动 */
+    margin-right: 20px; /* 设置头像右边距为20px */
+    border-radius: 50%; /* 设置圆形头像 */
+    width: 100px; /* 设置头像宽度为100px */
+}
+
+.name {
+    margin-bottom: 12px; /* 设置用户名下方外边距为12px */
+}
+
+.bio {
+    color: gray; /* 设置颜色为灰色 */
+}
+
+
+
+
+
+
+
